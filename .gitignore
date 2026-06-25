@@ -1,0 +1,37 @@
+# Ambiente virtual
+.ambiente_celeste/
+venv/
+.venv/
+
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Django
+db.sqlite3
+media/
+staticfiles/
+
+# Testes e ferramentas
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editores
+.vscode/
+.idea/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Bancos SQLite
+db.sqlite3
+*.sqlite3
+*.sqlite
+celeste
